@@ -80,7 +80,7 @@ h2{
 
 }
 
-.form-control small {
+.form-control.error small {
     visibility: visible;
 }
 .form-button{
