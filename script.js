@@ -36,28 +36,28 @@ form.addEventListener('submit', function(e) {
     e.preventDefault();
 
     //check if username input is empty
-    if(username.value === '') {
+    if ( username.value === '') {
         showError(username, 'User name is required');
     } else {
         showSucccess(username);
     }
 
      //check if username input is empty
-     if(email.value === '') {
+     if ( email.value === '') {
         showError(email, 'Email is required');
     } else {
         showSucccess(email);
     }
 
      //check if username input is empty
-     if(password.value === '') {
+     if ( password.value === '') {
         showError(password, 'Password is required');
     } else {
         showSucccess(password);
     }
 
      //check if username input is empty
-     if(password2.value === '') {
+     if ( password2.value === '') {
         showError(password2, ' Confirm Password is required');
     } else {
         showSucccess(password2);
