@@ -26,6 +26,11 @@ function showSuccess(input) {
     //override the class - add success
     formControl.className = 'form-control success';
 
+ //function to check if email is valid
+ function isValidEmail(email) {
+    
+ }
+
 
 }
 
